@@ -7,7 +7,7 @@ use App\Http\Controllers\SessionController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\TagController;
 
-Route::get('/project', action: [JobController::class, 'index']);
+Route::get('/', action: [JobController::class, 'index']);
 Route::get('/jobs/create', [JobController::class, 'create']);
 Route::post('/jobs/create', [JobController::class, 'store'])->middleware('auth');
 
