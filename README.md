@@ -16,7 +16,9 @@ Este projeto utiliza:
 - **Laravel** (Framework PHP)  
 - **API RESTful**  
 - **Arquitetura MVC**  
-- **CSS com Tailwind**  
+- **CSS com Tailwind**
+
+Nota: eu utilizei a bliblioteca faker para gerar dados e informações.
 
 ## Instalação  
 1. Certifique-se de que o Composer está instalado no seu computador.
