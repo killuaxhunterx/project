@@ -19,7 +19,8 @@ Este projeto utiliza:
 - **CSS com Tailwind**  
 
 ## Instalação  
-1. Certifique-se de que o Composer está instalado no seu computador.  
+1. Certifique-se de que o Composer está instalado no seu computador.
+   
 2. Entre na pasta do projeto:  
     ```bash
     cd project
