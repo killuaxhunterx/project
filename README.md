@@ -1,23 +1,43 @@
-# Find your next job
+# Find Your Next Job  
+**Um HUB completo para conectar talentos e empresas.**
 
-## Info 
+## Info  
+**Find Your Next Job** é um projeto desenvolvido em 15 dias com base nas aulas do canal [Laracasts](https://www.youtube.com/watch?v=SqTdHCTWqks&ab_channel=Laracasts).  
+Essa plataforma serve tanto para pessoas em busca de novas oportunidades de emprego quanto para empresas que desejam recrutar profissionais qualificados.
 
-Find your next job é um projeto ao qual fiz durante 15 dias junto com o canal [Laracasts]([url](https://www.youtube.com/watch?v=SqTdHCTWqks&ab_channel=Laracasts)). Esse projeto funciona como um HUB para quem deseja buscar um emprego e buscar pessoas qualificadas para trabalhar na sua empresa. 
- 
-## Tecnologias
+## Recursos  
+- Cadastro e listagem de vagas de emprego.  
+- Busca por palavras-chave e localização.  
+- Filtros avançados para encontrar o emprego ideal.  
+- Interface responsiva e moderna com Tailwind CSS.
 
-Eu utilizei coomo base o Laravel, que é um framework do PHP, APIRestFull, MVC, e Tailwind.
+## Tecnologias  
+Este projeto utiliza:  
+- **Laravel** (Framework PHP)  
+- **API RESTful**  
+- **Arquitetura MVC**  
+- **CSS com Tailwind**  
 
-## Instalação
-Para a utilização desse projeto você deverá possuir o composer instalado no seu computador.
+## Instalação  
+1. Certifique-se de que o Composer está instalado no seu computador.  
+2. Entre na pasta do projeto:  
+    ```bash
+    cd project
+    ```
+3. Crie o projeto com o comando:  
+    ```bash
+    composer create-project find_your_next_job/project --stability dev
+    ```
 
-composer create-project find_your_next_job/project
-
-## Uso
-
-Quando o projeto estiver na sua pasta, utilize os comandos:
-php artisan cache:clear
-php artisan config:clear
-php artisan route::clear
-php artisan optimize
-php artisan migrate --seed
+## Uso  
+1. Crie e configure o banco de dados e aplique as migrações:  
+    ```bash
+    php artisan migrate --seed
+    ```
+2. Limpe os caches e otimize o projeto:  
+     ```bash
+    php artisan cache:clear
+    php artisan config:clear
+    php artisan route:clear
+    php artisan optimize
+    ```
