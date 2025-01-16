@@ -8,6 +8,12 @@
         "framework"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/seu_usuario/find_your_next_job"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.31",
